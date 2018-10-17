@@ -20,8 +20,8 @@ object AppConfig {
         }
 
         object Support {
-            private const val lifeCycleVersion = "2.0.0-beta01"
-            private const val roomVersion = "2.0.0-beta01"
+            private const val lifeCycleVersion = "2.0.0"
+            private const val roomVersion = "2.1.0-alpha01"
 
             const val appCompat = "androidx.appcompat:appcompat:1.0.0-alpha1"
             const val constraitLayout = "androidx.constraintlayout:constraintlayout:1.1.2"
@@ -88,7 +88,7 @@ object AppConfig {
 
 
         object Dagger {
-            private const val version = "2.16"
+            private const val version = "2.17"
 
             const val daggerAndroid = "com.google.dagger:dagger-android:$version"
             const val daggerAndroidSupport = "com.google.dagger:dagger-android-support:$version"
