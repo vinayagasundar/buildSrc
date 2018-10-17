@@ -66,6 +66,7 @@ object AppConfig {
 
         object Debug {
             const val dbDebug = "com.amitshekhar.android:debug-db:1.0.4"
+            const val timerLogger = "com.jakewharton.timber:timber:4.7.1"
         }
 
 
@@ -88,7 +89,7 @@ object AppConfig {
 
 
         object Dagger {
-            private const val version = "2.17"
+            private const val version = "2.16"
 
             const val daggerAndroid = "com.google.dagger:dagger-android:$version"
             const val daggerAndroidSupport = "com.google.dagger:dagger-android-support:$version"
