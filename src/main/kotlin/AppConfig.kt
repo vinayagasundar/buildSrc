@@ -84,7 +84,7 @@ object AppConfig {
         }
 
         object BlackCatz {
-            const val daggerbase = "com.blackcatz:daggerbase:1.0"
+            const val daggerbase = "com.blackcatz:daggerbase:1.1"
         }
 
 
