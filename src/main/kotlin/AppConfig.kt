@@ -53,8 +53,12 @@ object AppConfig {
             const val recyclerView = "androidx.recyclerview:recyclerview:1.0.0-alpha1"
         }
 
+
         object Network {
             private const val retrofitVersion = "2.4.0"
+            private const val okhttpVersion = "3.11.0"
+            const val okhttp = "com.squareup.okhttp3:okhttp:$okhttpVersion"
+            const val okhttpLogger = "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
             const val retrofit2 = "com.squareup.retrofit2:retrofit:$retrofitVersion"
             const val retrofit2Mock = "com.squareup.retrofit2:retrofit-mock:$retrofitVersion"
             const val gsonConv = "com.squareup.retrofit2:converter-gson:$retrofitVersion"
