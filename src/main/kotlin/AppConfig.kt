@@ -1,5 +1,6 @@
 object AppConfig {
-    private const val kotlinVersion = "1.2.70"
+
+    const val kotlinVersion = "1.2.70"
 
     object SdkVersion {
         const val compile = 28
