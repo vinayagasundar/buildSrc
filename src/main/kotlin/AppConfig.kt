@@ -95,6 +95,19 @@ object AppConfig {
         }
 
 
+        object RxJava {
+            const val rxJavaVersion = "2.2.3"
+            const val rxJavaAndroidVersion = "2.1.0"
+
+            const val rxJava = "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
+
+            // Because RxAndroid releases are few and far between, it is recommended you also
+            // explicitly depend on RxJava's latest version for bug fixes and new features.
+            // (see httpxs://github.com/ReactiveX/RxJava/releases for latest 2.x.x version)
+            const val rxJavaAndroid = "io.reactivex.rxjava2:rxandroid:$rxJavaAndroidVersion"
+        }
+
+
         object Dagger {
             private const val version = "2.16"
 
