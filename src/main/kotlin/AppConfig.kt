@@ -1,6 +1,6 @@
 object AppConfig {
 
-    const val kotlinVersion = "1.2.70"
+    const val kotlinVersion = "1.3.0"
 
     object SdkVersion {
         const val compile = 28
@@ -16,7 +16,7 @@ object AppConfig {
 
     object Libs {
         object Kotlin {
-            const val coroutineVersion = "0.30.0"
+            const val coroutineVersion = "1.0.0"
             const val jvm = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
             const val coroutineJvm = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineVersion"
             const val coroutineAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion"
