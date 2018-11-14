@@ -65,6 +65,7 @@ object AppConfig {
             const val retrofit2 = "com.squareup.retrofit2:retrofit:$retrofitVersion"
             const val retrofit2Mock = "com.squareup.retrofit2:retrofit-mock:$retrofitVersion"
             const val gsonConv = "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+            const val rxJavaAdapter = "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
         }
 
         object Image {
