@@ -99,6 +99,7 @@ object AppConfig {
         object RxJava {
             const val rxJavaVersion = "2.2.3"
             const val rxJavaAndroidVersion = "2.1.0"
+            const val rxBindingVersion = "3.0.0-alpha1"
 
             const val rxJava = "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
 
@@ -106,6 +107,12 @@ object AppConfig {
             // explicitly depend on RxJava's latest version for bug fixes and new features.
             // (see httpxs://github.com/ReactiveX/RxJava/releases for latest 2.x.x version)
             const val rxJavaAndroid = "io.reactivex.rxjava2:rxandroid:$rxJavaAndroidVersion"
+
+            const val rxBinding = "com.jakewharton.rxbinding3:rxbinding$rxBindingVersion"
+            const val rxBindingCore = "com.jakewharton.rxbinding3:rxbinding-core:$rxBindingVersion"
+            const val rxBindingAppCompact = "com.jakewharton.rxbinding3:rxbinding-appcompat:$rxBindingVersion"
+            const val rxBindingRecyclerView = "com.jakewharton.rxbinding3:rxbinding-recyclerview:$rxBindingVersion"
+            const val rxBindingViewPager = "com.jakewharton.rxbinding3:rxbinding-viewpager:$rxBindingVersion"
         }
 
 
