@@ -113,6 +113,7 @@ object AppConfig {
             const val rxBindingAppCompact = "com.jakewharton.rxbinding3:rxbinding-appcompat:$rxBindingVersion"
             const val rxBindingRecyclerView = "com.jakewharton.rxbinding3:rxbinding-recyclerview:$rxBindingVersion"
             const val rxBindingViewPager = "com.jakewharton.rxbinding3:rxbinding-viewpager:$rxBindingVersion"
+            const val rxBindingMaterial = "com.jakewharton.rxbinding3:rxbinding-material:$rxBindingVersion"
         }
 
 
