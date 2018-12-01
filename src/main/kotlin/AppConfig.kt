@@ -54,6 +54,9 @@ object AppConfig {
 
             // RecyclerView
             const val recyclerView = "androidx.recyclerview:recyclerview:1.0.0-alpha1"
+
+            // Custom Tabs
+            const val customTabs = "com.android.support:customtabs:28.0.0"
         }
 
 
