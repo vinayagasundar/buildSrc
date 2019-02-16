@@ -1,6 +1,6 @@
 object AppConfig {
 
-    const val kotlinVersion = "1.3.0"
+    const val kotlinVersion = "1.3.21"
 
     object SdkVersion {
         const val compile = 28
@@ -10,7 +10,7 @@ object AppConfig {
 
 
     object Plugins {
-        const val android = "com.android.tools.build:gradle:3.2.0"
+        const val android = "com.android.tools.build:gradle:3.3.1"
         const val kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
     }
 
