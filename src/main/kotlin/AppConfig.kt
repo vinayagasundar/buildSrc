@@ -27,7 +27,7 @@ object AppConfig {
             private const val roomVersion = "2.1.0-alpha01"
 
             const val appCompat = "androidx.appcompat:appcompat:1.0.0-alpha1"
-            const val constraitLayout = "androidx.constraintlayout:constraintlayout:1.1.2"
+            const val constraitLayout = "androidx.constraintlayout:constraintlayout:1.1.3"
 
             // ViewModel & LiveData
             const val lifeCycle = "androidx.lifecycle:lifecycle-extensions:$lifeCycleVersion"
