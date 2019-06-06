@@ -1,6 +1,6 @@
 object AppConfig {
 
-    const val kotlinVersion = "1.3.21"
+    const val kotlinVersion = "1.3.30"
 
     object SdkVersion {
         const val compile = 28
@@ -10,7 +10,7 @@ object AppConfig {
 
 
     object Plugins {
-        const val android = "com.android.tools.build:gradle:3.3.1"
+        const val android = "com.android.tools.build:gradle:3.4.1"
         const val kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
     }
 
@@ -61,8 +61,8 @@ object AppConfig {
 
 
         object Network {
-            private const val retrofitVersion = "2.4.0"
-            private const val okhttpVersion = "3.11.0"
+            private const val retrofitVersion = "2.6.0"
+            private const val okhttpVersion = "3.14.2"
             const val okhttp = "com.squareup.okhttp3:okhttp:$okhttpVersion"
             const val okhttpLogger = "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
             const val retrofit2 = "com.squareup.retrofit2:retrofit:$retrofitVersion"
@@ -100,8 +100,8 @@ object AppConfig {
 
 
         object RxJava {
-            const val rxJavaVersion = "2.2.3"
-            const val rxJavaAndroidVersion = "2.1.0"
+            const val rxJavaVersion = "2.2.9"
+            const val rxJavaAndroidVersion = "2.1.1"
             const val rxBindingVersion = "3.0.0-alpha1"
 
             const val rxJava = "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
@@ -121,7 +121,7 @@ object AppConfig {
 
 
         object Dagger {
-            private const val version = "2.16"
+            private const val version = "2.23.1"
 
             const val daggerAndroid = "com.google.dagger:dagger-android:$version"
             const val daggerAndroidSupport = "com.google.dagger:dagger-android-support:$version"
