@@ -1,16 +1,16 @@
 object AppConfig {
 
-    const val kotlinVersion = "1.3.30"
+    const val kotlinVersion = "1.3.50"
 
     object SdkVersion {
-        const val compile = 28
-        const val target = 28
+        const val compile = 29
+        const val target = 29
         const val min = 21
     }
 
 
     object Plugins {
-        const val android = "com.android.tools.build:gradle:3.4.1"
+        const val android = "com.android.tools.build:gradle:3.6.0-beta04"
         const val kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
     }
 
@@ -23,10 +23,10 @@ object AppConfig {
         }
 
         object Support {
-            private const val lifeCycleVersion = "2.0.0"
-            private const val roomVersion = "2.1.0-alpha01"
+            private const val lifeCycleVersion = "2.1.0"
+            private const val roomVersion = "2.2.2"
 
-            const val appCompat = "androidx.appcompat:appcompat:1.0.0-alpha1"
+            const val appCompat = "androidx.appcompat:appcompat:1.1.0"
             const val constraitLayout = "androidx.constraintlayout:constraintlayout:1.1.3"
 
             // ViewModel & LiveData
@@ -61,8 +61,8 @@ object AppConfig {
 
 
         object Network {
-            private const val retrofitVersion = "2.6.0"
-            private const val okhttpVersion = "3.14.2"
+            private const val retrofitVersion = "2.6.2"
+            private const val okhttpVersion = "4.2.2"
             const val okhttp = "com.squareup.okhttp3:okhttp:$okhttpVersion"
             const val okhttpLogger = "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
             const val retrofit2 = "com.squareup.retrofit2:retrofit:$retrofitVersion"
@@ -90,7 +90,7 @@ object AppConfig {
         }
 
         object AndroidTest {
-            const val testRunner = "androidx.test:runner:1.1.0-alpha3"
+            const val testRunner = "androidx.test:runner:1.2.0"
             const val espressoCore = "androidx.test.espresso:espresso-core:3.1.0-alpha3"
         }
 
@@ -100,9 +100,9 @@ object AppConfig {
 
 
         object RxJava {
-            const val rxJavaVersion = "2.2.9"
+            const val rxJavaVersion = "2.2.15"
             const val rxJavaAndroidVersion = "2.1.1"
-            const val rxBindingVersion = "3.0.0-alpha1"
+            const val rxBindingVersion = "3.1.0"
 
             const val rxJava = "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
 
@@ -121,7 +121,7 @@ object AppConfig {
 
 
         object Dagger {
-            private const val version = "2.23.1"
+            private const val version = "2.25.2"
 
             const val daggerAndroid = "com.google.dagger:dagger-android:$version"
             const val daggerAndroidSupport = "com.google.dagger:dagger-android-support:$version"
