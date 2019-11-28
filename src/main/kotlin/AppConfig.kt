@@ -12,6 +12,7 @@ object AppConfig {
     object Plugins {
         const val android = "com.android.tools.build:gradle:3.6.0-beta04"
         const val kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+        const val googleService = "com.google.gms:google-services:4.3.2"
     }
 
     object Libs {
@@ -128,6 +129,13 @@ object AppConfig {
 
             const val daggerCompiler = "com.google.dagger:dagger-compiler:$version"
             const val daggerAndroidCompiler = "com.google.dagger:dagger-android-processor:$version"
+        }
+
+        object Firebase {
+            const val analytics = "com.google.firebase:firebase-analytics:17.2.0"
+
+            const val auth = "com.google.firebase:firebase-auth:19.2.0"
+            const val serviceAuth = "com.google.android.gms:play-services-auth:17.0.0"
         }
     }
 }
