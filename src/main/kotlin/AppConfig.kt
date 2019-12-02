@@ -126,6 +126,8 @@ object AppConfig {
         object Dagger {
             private const val version = "2.25.2"
 
+            const val dagger = "com.google.dagger:dagger:$version"
+
             const val daggerAndroid = "com.google.dagger:dagger-android:$version"
             const val daggerAndroidSupport = "com.google.dagger:dagger-android-support:$version"
 
