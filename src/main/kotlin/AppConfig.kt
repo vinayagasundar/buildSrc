@@ -136,10 +136,15 @@ object AppConfig {
         }
 
         object Firebase {
+            private const val firebaseVersion = "19.2.0"
+
             const val analytics = "com.google.firebase:firebase-analytics:17.2.0"
 
-            const val auth = "com.google.firebase:firebase-auth:19.2.0"
+            const val auth = "com.google.firebase:firebase-auth:$firebaseVersion"
             const val serviceAuth = "com.google.android.gms:play-services-auth:17.0.0"
+
+            const val database = "com.google.firebase:firebase-database:$firebaseVersion"
+            const val databaseExtension = "com.google.firebase:firebase-database-ktx:$firebaseVersion"
         }
     }
 }
