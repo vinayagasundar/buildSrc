@@ -32,6 +32,7 @@ object AppConfig {
 
             // ViewModel & LiveData
             const val lifeCycle = "androidx.lifecycle:lifecycle-extensions:$lifeCycleVersion"
+            const val lifeCycleViewModelExt = "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifeCycleVersion"
 
             // optional - Test helpers for LiveData
             const val lifeCycleTestHelper = "androidx.arch.core:core-testing:$lifeCycleVersion"
