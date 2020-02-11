@@ -10,7 +10,7 @@ object AppConfig {
 
 
     object Plugins {
-        const val android = "com.android.tools.build:gradle:3.6.0-rc01"
+        const val android = "com.android.tools.build:gradle:3.6.0-rc03"
         const val kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
         const val googleService = "com.google.gms:google-services:4.3.2"
     }
