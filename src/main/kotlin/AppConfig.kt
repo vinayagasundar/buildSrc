@@ -81,7 +81,7 @@ object AppConfig {
 
         object Debug {
             const val dbDebug = "com.amitshekhar.android:debug-db:1.0.4"
-            const val timerLogger = "com.jakewharton.timber:timber:4.7.1"
+            const val timberLogger = "com.jakewharton.timber:timber:4.7.1"
         }
 
 
