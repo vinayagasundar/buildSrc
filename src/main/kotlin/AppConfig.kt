@@ -24,8 +24,8 @@ object AppConfig {
         }
 
         object Support {
-            private const val lifeCycleVersion = "2.1.0"
-            private const val roomVersion = "2.2.2"
+            private const val lifeCycleVersion = "2.2.0"
+            private const val roomVersion = "2.2.5"
 
             const val appCompat = "androidx.appcompat:appcompat:1.1.0"
             const val constraitLayout = "androidx.constraintlayout:constraintlayout:1.1.3"
@@ -55,7 +55,7 @@ object AppConfig {
             const val materialDesign = "com.google.android.material:material:1.1.0"
 
             // RecyclerView
-            const val recyclerView = "androidx.recyclerview:recyclerview:1.0.0-alpha1"
+            const val recyclerView = "androidx.recyclerview:recyclerview:1.1.0"
 
             // Custom Tabs
             const val customTabs = "com.android.support:customtabs:28.0.0"
@@ -63,8 +63,8 @@ object AppConfig {
 
 
         object Network {
-            private const val retrofitVersion = "2.6.2"
-            private const val okhttpVersion = "4.2.2"
+            private const val retrofitVersion = "2.9.0"
+            private const val okhttpVersion = "4.7.2"
             const val okhttp = "com.squareup.okhttp3:okhttp:$okhttpVersion"
             const val okhttpLogger = "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
             const val retrofit2 = "com.squareup.retrofit2:retrofit:$retrofitVersion"
@@ -125,7 +125,7 @@ object AppConfig {
 
 
         object Dagger {
-            private const val version = "2.25.2"
+            private const val version = "2.28"
 
             const val dagger = "com.google.dagger:dagger:$version"
 
