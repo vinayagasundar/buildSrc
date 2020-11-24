@@ -10,7 +10,7 @@ object AppConfig {
 
 
     object Plugins {
-        const val android = "com.android.tools.build:gradle:4.1.0-beta05"
+        const val android = "com.android.tools.build:gradle:4.2.0-alpha16"
         const val kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
         const val googleService = "com.google.gms:google-services:4.3.2"
     }
@@ -24,14 +24,14 @@ object AppConfig {
         }
 
         object Support {
-            private const val lifeCycleVersion = "2.2.0"
-            private const val roomVersion = "2.2.5"
+            private const val lifeCycleVersion = "2.3.0-beta01"
+            private const val roomVersion = "2.3.0-alpha03"
 
-            const val appCompat = "androidx.appcompat:appcompat:1.1.0"
-            const val constraitLayout = "androidx.constraintlayout:constraintlayout:1.1.3"
+            const val appCompat = "androidx.appcompat:appcompat:1.3.0-alpha02"
+            const val constraitLayout = "androidx.constraintlayout:constraintlayout:2.1.0-alpha1"
 
             // ViewModel & LiveData
-            const val lifeCycle = "androidx.lifecycle:lifecycle-extensions:$lifeCycleVersion"
+            const val lifeCycle = "androidx.lifecycle:lifecycle-extensions:2.2.0"
             const val lifeCycleViewModelExt = "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifeCycleVersion"
 
             // optional - Test helpers for LiveData
@@ -64,7 +64,7 @@ object AppConfig {
 
         object Network {
             private const val retrofitVersion = "2.9.0"
-            private const val okhttpVersion = "4.7.2"
+            private const val okhttpVersion = "4.9.0"
             const val okhttp = "com.squareup.okhttp3:okhttp:$okhttpVersion"
             const val okhttpLogger = "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
             const val retrofit2 = "com.squareup.retrofit2:retrofit:$retrofitVersion"
@@ -125,7 +125,7 @@ object AppConfig {
 
 
         object Dagger {
-            private const val version = "2.28"
+            private const val version = "2.30.1"
 
             const val dagger = "com.google.dagger:dagger:$version"
 
